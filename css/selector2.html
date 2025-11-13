@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /*#main p{
+            background-color: #bc2f2f;
+        }
+        /*#inside p{
+            background-color:aqua;
+        }
+       /* #main >p {
+            background-color:blue;
+        }
+        /* #main + p{
+        background-color:blueviolet;} */
+        #main ~ p{
+            background-color:blanchedalmond
+        }
+        /* style for a special state of an element. */
+        a:link {
+text -decoration:none ; font size:20px;
+        }
+        a:hover{
+            color:chartreuse; font size:25px;
+        }
+        a: active{
+            color : cornflowerblue;
+        }
+        #main p:: first-line{
+            color:aqua;
+        }
+        #main p::first-letter{
+            color: rgb(14,225,49); font-size: 30px;
+        }
+        #main p::first-line{
+            background-color: aquamarine;
+        }
+        #main p::after{
+          content "read more";
+          color :red;
+        }
+    </style>
+</head>
+<body><p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos quia eum nemo? Minima vitae voluptatem perspiciatis molestias hic quam reiciendis minus laboriosam at ab, quis vel pariatur rerum recusandae et, dignissimos impedit eveniet.
+
+</p>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, libero at! Harum iure enim repellat debitis, fugit ratione neque cumque aperiam. Odio ipsam culpa mollitia voluptates temporibus itaque voluptatem ex commodi doloribus architecto? Cupiditate?</p>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate maiores, suscipit assumenda quasi architecto ullam quo iste doloribus quos, optio exercitationem hic! Possimus dolorum quas quis earum at libero architecto illum distinctio voluptatibus molestiae!</p>
+    <!--css combinators-->
+    <div id="main">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, natus. Quos impedit dolorum harum id placeat repellat debitis iusto, unde soluta libero, nam ab quo quisquam aperiam rerum modi explicabo similique temporibus, quaerat laboriosam.
+
+        </p>
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis assumenda omnis quibusdam, dolores tempore aspernatur perspiciatis ipsum neque, accusamus ut modi praesentium, velit quod laborum expedita atque earum at. Nesciunt nobis aliquam repellendus voluptatibus.
+
+            </p>
+        </div><!--inside first end-->
+    </div><!--div first end-->
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam tempora deserunt possimus inventore? Dolorum aut, sunt odio, qui provident aliquid beatae fuga quia, quidem ducimus corporis dolores velit eos sapiente cupiditate. Ipsam, praesentium debitis!
+
+    </p>
+    <a herf="">visit my page!</a>
+
+</body>
+</html>
