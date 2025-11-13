@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight:700;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 10px #2da131;
+    color: blue;
+}
+img{
+     border: 2px solid #f04;
+    /* border-radius: 50%;  */
+    float: left;
+    margin-right:20px;
+}
+h1{
+    color: red;
+}
