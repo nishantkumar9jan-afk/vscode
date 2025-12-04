@@ -20,10 +20,10 @@ body { background: #f7f8fb; color: #111; padding: 20px; }
 /* product card */ 
 .product-card { 
   background: #fff; 
-  border: 1px solid #e0e4ef;      /* border */ 
-  padding: 12px;                  /* padding */ 
-  width: 100%;                    /* width */ 
-  height: auto;                   /* height (auto) */ 
+  border: 1px solid #e0e4ef;      
+  padding: 12px;                  
+  width: 100%;                    
+  height: auto;                   
   border-radius: 6px; 
 } 
  
@@ -33,7 +33,7 @@ body { background: #f7f8fb; color: #111; padding: 20px; }
   height: 600px;                  /* height */ 
   object-fit: cover; 
   display: block;                 /* block-level image */ 
-  margin-bottom: 10px; 
+  margin-bottom: 5px; 
   border: 1px solid #ddd;         /* border */ 
 } 
  
