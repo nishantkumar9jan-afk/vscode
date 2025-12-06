@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Responsive Product Grid</title> 
+  <style> 
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; 
+      background: #f5f5f5; 
+      padding: 20px; 
+    } 
+ 
+    h2 { 
+      text-align: center; 
+      margin-bottom: 20px; 
+    } 
+ 
+ 
+    /* Product grid */ 
+    .grid { 
+      display: grid; 
+      grid-template-columns: repeat(4, 1fr); /* 4 columns for large screens */ 
+      gap: 20px; 
+    } 
+ 
+    /* Product card */ 
+    .card { 
+      background: #fff; 
+      border-radius: 8px; 
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+      padding: 16px; 
+      text-align: center; 
+    } 
+ 
+    .card img { 
+      width: 100%; 
+      height: 350px; 
+      object-fit: cover; 
+      border-radius: 6px; 
+      margin-bottom: 10px; 
+    } 
+ 
+    .card h3 { 
+      font-size: 18px; 
+      margin: 8px 0; 
+    } 
+ 
+    .card p { 
+      font-size: 14px; 
+      color: #555; 
+      margin: 4px 0; 
+    } 
+ 
+    .price { 
+      font-weight: bold; 
+      color: #007bff; 
+    } 
+ 
+    
+    @media (max-width: 1024px) { 
+      .grid { 
+        grid-template-columns: repeat(2, 1fr); 
+      } 
+    } 
+ 
+    @media (max-width: 600px) { 
+      .grid { 
+        grid-template-columns: 1fr; 
+      } 
+    } 
+  </style> 
+</head> 
+<body> 
+  <h2>Responsive Product Grid</h2> 
+
+<div class="grid"> 
+    <div class="card"> 
+      <img src="https://5.imimg.com/data5/SELLER/Default/2022/12/IL/PX/SY/158186738/1.jpg"> 
+      <h3>Product 1</h3> 
+      <p>High-quality item with great features.</p> 
+      <p class="price">₹1299</p> 
+    </div> 
+ 
+    <div class="card"> 
+      <img src=" https://media.istockphoto.com/id/465485415/photo/blue-t-shirt-clipping-path.jpg?s=612x612&w=0&k=20&c=VzE9RWytBIg6wb47plb5kl08brIuzAnlN1B6W1Pd6tg=" alt="Product 1" alt="Product 2"> 
+      <h3>Product 2</h3> 
+      <p>Durable and stylish for daily use.</p> 
+      <p class="price">₹299</p> 
+    </div> 
+ 
+    <div class="card"> 
+      <img src="https://www.stormtechusa.com/cdn/shop/products/CFH-2_BLACK_46552385-4c35-4805-8d34-e7e3e20c4e73.jpg?v=1747760881&width=1200" alt="Product 3"> 
+      <h3>Product 3</h3> 
+      <p>Lightweight and comfortable.</p> 
+      <p class="price">₹1099</p> 
+    </div> 
+ 
+    <div class="card"> 
+      <img src="https://bypollyanna.co.uk/cdn/shop/files/cornflowerbluesweatshirt.jpg?v=1683797479&width=2048" alt="Product 4"> 
+      <h3>Product 4</h3> 
+      <p>Trendy design with premium quality.</p> 
+      <p class="price">₹999</p> 
+    </div> 
+  </div> 
+</body> 
+</html> 
