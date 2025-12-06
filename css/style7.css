@@ -1,0 +1,51 @@
+ 
+header { 
+  display: block; 
+  background: rgb(114, 34, 168); 
+  padding: 10px; 
+  text-align: center; 
+} 
+ 
+
+header span { 
+  display: inline; 
+  color: rgb(9, 19, 13); 
+} 
+ 
+.inline-block-menu ul { 
+  list-style: none; 
+  padding: 0; 
+  text-align: left;
+} 
+.inline-block-menu li { 
+  display: inline-block; 
+  margin-right: 15px; 
+} 
+.inline-block-menu a { 
+  text-decoration: none; 
+  padding: 5px; 
+  background: rgba(29, 137, 176, 0.381); 
+} 
+ 
+
+.float-menu ul { 
+  list-style: none; 
+  padding: 0; 
+  text-align: center;
+  
+} 
+.float-menu li { 
+  float: left; 
+  margin-right: 15px;
+
+} 
+.float-menu a { 
+  text-decoration: none; 
+  padding: 5px; 
+  
+  background: rgb(203, 213, 108); 
+} 
+ 
+.clear { 
+  clear: both; 
+} 
